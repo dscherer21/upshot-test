@@ -12,30 +12,38 @@ button:hover {
     background-color: blue;
 }
 
+.container {
+    display: flex;
+}
+
 .adbox {
     border: 1px solid black;
     background-color: white;
-    margin: 1%;
-    padding: 1%;
-    width: 10%;
+    margin: 3%;
+    padding: 2%;
+    width: 20%;
     height: auto;
 }
 
 .row {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
 
 .column {
     
 }
 
-#addcells {
-    float: right;
+#adcells {
+    width: 70%;
+}
+
+#leftcolumn {
+    width: 30%;
 }
 
 .asidelink {
     display: block;
-    margin: 2%;
+    margin: 10%;
     text-align: left;
 }

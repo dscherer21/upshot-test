@@ -1,5 +1,6 @@
 header {
     background-color: skyblue;
+    padding: 5%;
 }
 
 h1 {
@@ -9,6 +10,7 @@ h1 {
 
 .logoandlinks {
     display: flex;
+    padding-bottom: 5%;
 }
 
 .logo {
@@ -21,4 +23,33 @@ h1 {
 
 .mainlinks1 {
     padding: 10%;
+}
+
+@media screen and (max-width: 768px) {
+
+    .mainlinks {
+        margin: 1% 1% auto auto;
+    }
+
+    .mainlinks1{
+        padding: 3%;
+    }
+
+
+}
+
+@media screen and (mad-width: 411px) {
+    .row {
+        flex-direction: column;
+    }
+
+    .adbox {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .mainlinks1 {
+        padding: 1%;
+    }
 }

@@ -5,7 +5,7 @@ import './body.css';
 const Body = () => {
     return(
       <main className='container'>
-        <div className='column'>
+        <div className='column' id='leftcolumn'>
             <a href='#' className='asidelink'>Footwear</a>
             <a href='#' className='asidelink'>Water Fountains</a>
             <a href='#' className='asidelink'>Garage Door Openers</a>
