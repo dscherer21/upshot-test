@@ -13,7 +13,7 @@ const Body = () => {
             <a href='#' className='asidelink'>Beverages</a>
             <a href='#' className='asidelink'>Education</a>
         </div>
-        <div className='column'>
+        <div className='column' id='adcells'>
             <div className='row'>
                 <div className='adbox'>
                     <img src='#' alt='#'/>
