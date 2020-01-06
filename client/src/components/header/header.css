@@ -1,0 +1,23 @@
+header {
+    background-color: skyblue;
+}
+
+h1 {
+    color: white;
+}
+
+.logoandlinks {
+    display: flex;
+}
+
+.logo {
+    margin: 1% auto auto 10%;
+}
+
+.mainlinks {
+   margin: 1% 10% auto auto;
+}
+
+.mainlinks1 {
+    padding: 10%;
+}
