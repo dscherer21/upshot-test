@@ -1,0 +1,19 @@
+{
+  "name": "upshot-test",
+  "version": "1.0.0",
+  "description": "Using HTML, CSS, & Javascript create the included layout.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dscherer21/upshot-test.git"
+  },
+  "author": "dscherer21",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dscherer21/upshot-test/issues"
+  },
+  "homepage": "https://github.com/dscherer21/upshot-test#readme"
+}
